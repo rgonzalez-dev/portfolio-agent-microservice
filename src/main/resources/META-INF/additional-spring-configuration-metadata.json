@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "spring.h2.console.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable the H2 console UI. Default is 'true' when H2 is on the classpath."
+    },
+    {
+      "name": "llm.provider",
+      "type": "java.lang.String",
+      "description": "LLM provider to use (openai, anthropic, local)"
+    },
+    {
+      "name": "llm.openai.api-key",
+      "type": "java.lang.String",
+      "description": "OpenAI API key"
+    },
+    {
+      "name": "llm.openai.model",
+      "type": "java.lang.String",
+      "description": "OpenAI model to use (gpt-4, gpt-3.5-turbo, etc.)"
+    },
+    {
+      "name": "llm.openai.api-endpoint",
+      "type": "java.lang.String",
+      "description": "OpenAI API endpoint URL"
+    }
+  ]
+}
