@@ -22,3 +22,12 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+AGENT_SEQUENCE_FLOW.md
+COMPLETION_CHECKLIST.md
+DOCUMENTATION_INDEX.md
+LLM_PROVIDER_INTEGRATION.md
+PLANNING_ARCHITECTURE.md
+PLANNING_REFACTOR_SUMMARY.md
+PLANNING_REFACTOR.md
+QUICK_REFERENCE.md
+VISUAL_SUMMARY.md
