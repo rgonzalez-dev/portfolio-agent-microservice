@@ -1,4 +1,4 @@
-package rgonzalez.agent.dto.request;
+package rgonzalez.agent.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

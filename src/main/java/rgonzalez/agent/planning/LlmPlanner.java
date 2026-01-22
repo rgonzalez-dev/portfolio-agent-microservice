@@ -3,7 +3,6 @@ package rgonzalez.agent.planning;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
@@ -18,15 +17,7 @@ public class LlmPlanner implements Planner {
     private final PlanValidator planValidator;
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
-    @Value("${llm.openai.api-key:}")
-    private String apiKey;
-
-    @Value("${llm.openai.api-endpoint:https://api.openai.com}")
-    private String endpoint;
-
-    public LlmPlanner(
-            PlanValidator planValidator) {
-
+    public LlmPlanner(PlanValidator planValidator) {
         this.planValidator = planValidator;
     }
 

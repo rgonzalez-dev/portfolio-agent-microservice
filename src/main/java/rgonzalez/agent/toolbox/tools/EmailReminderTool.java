@@ -1,7 +1,8 @@
-package rgonzalez.agent.tool.tools;
+package rgonzalez.agent.toolbox.tools;
 
-import rgonzalez.agent.tool.Tool;
 import org.springframework.stereotype.Component;
+
+import rgonzalez.agent.toolbox.Tool;
 
 import java.util.HashMap;
 import java.util.Map;

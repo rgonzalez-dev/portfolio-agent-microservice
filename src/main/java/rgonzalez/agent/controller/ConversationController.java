@@ -7,9 +7,10 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import rgonzalez.agent.dto.request.SendMessageRequest;
-import rgonzalez.agent.dto.response.ConversationResponse;
-import rgonzalez.agent.dto.response.MessageResponse;
+
+import rgonzalez.agent.dto.ConversationResponse;
+import rgonzalez.agent.dto.MessageResponse;
+import rgonzalez.agent.dto.SendMessageRequest;
 import rgonzalez.agent.entity.Conversation;
 import rgonzalez.agent.entity.Message;
 import rgonzalez.agent.service.ConversationService;

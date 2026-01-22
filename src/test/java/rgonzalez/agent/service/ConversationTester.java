@@ -28,8 +28,8 @@ import rgonzalez.agent.planning.PlanStep;
 import rgonzalez.agent.planning.Planner;
 import rgonzalez.agent.repository.ConversationRepository;
 import rgonzalez.agent.repository.MessageRepository;
-import rgonzalez.agent.tool.Tool;
-import rgonzalez.agent.tool.ToolRegistry;
+import rgonzalez.agent.toolbox.Tool;
+import rgonzalez.agent.toolbox.ToolRegistry;
 
 /**
  * ConversationTester validates the happy path of a user message through

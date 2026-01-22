@@ -1,4 +1,4 @@
-package rgonzalez.agent.tool;
+package rgonzalez.agent.toolbox;
 
 import java.util.Map;
 

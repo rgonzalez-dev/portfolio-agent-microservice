@@ -1,4 +1,4 @@
-package rgonzalez.agent.dto.response;
+package rgonzalez.agent.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import java.time.LocalDateTime;
